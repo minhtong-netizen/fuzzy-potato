@@ -1,1 +1,118 @@
-# fuzzy-potato
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Tinder</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="menu">
+            <div class="logo">
+                <img src="logo.jpg">
+            </div>
+            <div>
+                <ul class="menu_list">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="#">Places</a>
+                        <ul class="menu_xxx">
+                            <li><a href="">Hoan Kiem </a></li>
+                            <li><a href="#">Tay Ho </a></li>
+                            <li><a href="#">Ba Dinh </a></li>
+                            <li><a href="#">Dong Da </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">High rated</a></li>
+                    <li><a href="#">About Us</a>
+                        <ul>
+                            <li><a>Our team</a></li>
+                            <li><a>Mission</a></li>
+                            <li><a>Resources</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner_image">
+            <div class="banner_content">
+                <h1>Welcome to Coffee Tinder</h1>
+                <span>Get up, Get Coffee</span><br>
+                <br>
+                <a class="active2" href="#">Learn More...</a>
+            </div>
+        </div>
+
+
+        <div class="hottest">
+            <h2>Daily Hottest</h2>
+            <p>the places with the highest number of people coming to enjoy coffee today</p>
+
+            <div class="hottest_places" id="hottest_places">
+                <div class="place">
+                    <img src="hoguom.jpg" alt="g">
+                    <a class="active" href="#">Vintage</a>
+                </div>
+                <div class="place">
+                    <img src="hotay.jpg" alt="g">
+                    <a class="active" href="#">Modern</a>
+                </div>
+                <div class="place">
+                    <img src="cotco.jpg" alt="g">
+                    <a class="active" href="#">Eco-friendly</a>
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <h2 style="padding-top: 0px; padding-bottom: 30px;">Comment</h2>
+            <div class="flex">
+                <div class="post" style="max-width: 18rem;">
+                    <div><i class="fas fa-quote-right"></i></div>
+                    <div>
+                        <h3 class="reviewer">Anna Johnson</h3>
+                        <p class="thought">I like this page so much that I want to create something like this</p>
+                    </div>
+                </div>
+                <div class="post" style="max-width: 18rem;">
+                    <div><i class="fas fa-quote-right"></i></div>
+                    <div>
+                        <h3 class="reviewer">Jack Nguyen</h3>
+                        <p class="thought">From the first time I see this page, I already knew that it will be a great tool for finding coffeeshop in Hanoi</p>
+                    </div>
+                </div>
+                <div class="post " style="max-width: 18rem;">
+                    <div><i class="fas fa-quote-right"></i></div>
+                    <div>
+                        <h3 class="reviewer">Peter Chang</h3>
+                        <p class="thought">The project leader is so helpful and the web always provides me with the best service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="donate">
+            <h4>Love Hanoi Coffee house ? Want to help us keep it alive?</h4><br>
+            <a href="#">Donate here</a><br>
+        </div>
+        <div class="information">
+            <div class="info">
+                <h3>Information</h3>
+                <br>
+                <p>Phone: (+84) 355671942
+                    <br> Gmail: derricknguyen0710@gmail.com
+                    <br> Creator: Nguyen Quoc Trung, Tong Duc Minh, Phan Vu Thanh Tung
+                </p>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/" style="color:rgb(45, 125, 179)"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" style="color:rgb(219, 32, 147)"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" style="color: blue;"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+</body>
+
+</html>
